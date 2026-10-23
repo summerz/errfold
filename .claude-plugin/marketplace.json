@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace-manifest.json",
+  "name": "errfold",
+  "owner": { "name": "summerz", "url": "https://github.com/summerz" },
+  "description": "Install errfold, folds failed tool calls to one line; /errors lists them.",
+  "plugins": [
+    { "name": "errfold", "source": "./", "description": "folds failed tool calls to one line; /errors lists them.", "license": "MIT", "keywords": ["errors","tool-errors","transcript","status-line"] }
+  ]
+}

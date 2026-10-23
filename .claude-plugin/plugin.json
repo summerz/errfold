@@ -1,0 +1,24 @@
+{
+  "name": "errfold",
+  "version": "0.1.0",
+  "description": "Folds failed tool calls to one line in the transcript; /errors lists them in full.",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "lines": {
+      "type": "string",
+      "title": "Lines per error",
+      "description": "How many lines of each error the /errors pane shows.",
+      "default": "8"
+    },
+    "status": {
+      "type": "boolean",
+      "title": "Status line",
+      "description": "Show the error count in the status line.",
+      "default": true
+    }
+  },
+  "author": {
+    "name": "summerz",
+    "url": "https://github.com/summerz"
+  }
+}
